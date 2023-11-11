@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { LandingPage } from './src/LandingPage';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>ANTHONY pen up App.js to faf wstart working on your app!</Text>
-      <StatusBar style="auto" />
+      <LandingPage />
     </View>
   );
 }
